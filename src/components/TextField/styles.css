@@ -1,0 +1,32 @@
+.text-field {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%), 0 3px 8px 0 rgb(0 0 0 / 13%);
+  border: 0.5px solid #e0e0e0;
+  height: 3rem;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+
+.text-field:focus {
+  outline: none !important;
+  border: 0.5px solid #7eccb4 !important;
+}
+
+.text-field:hover {
+  border: 0.5px solid #43cbe4 !important;
+}
+
+.text-field:valid {
+  border: 0.5px solid #7eccb4 !important;
+}
+
+.text-field:valid {
+  border: 0.5px solid #7eccb4 !important;
+}
+
+.error {
+  font-size: 0.9rem;
+  margin-top: -10px;
+  color: #c74b4b;
+}
