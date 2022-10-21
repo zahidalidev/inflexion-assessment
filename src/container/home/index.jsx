@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 import { AppBar, Breadcrumb, Card } from 'components'
 import Form from 'components/Form'
-import schools from 'utils/constants'
 import { formValidate } from 'utils/helpers/validate'
+import schools from 'utils/constants'
 
 import './styles.css'
 
@@ -62,7 +62,7 @@ const Home = () => {
         <div className='row'>
           <div className='col-lg-12 row'>
             {schools.map((school) => (
-              <Card school={school} />
+              <Card key={school.name} school={school} />
             ))}
           </div>
         </div>
